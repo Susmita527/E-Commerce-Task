@@ -47,6 +47,7 @@ function ViewCart() {
   }
 const TotalAmount=cart.reduce((acc,item)=>acc+item.price*item.quantity,0);
 // added
+// added for pr
   return (
     <div className="container">
        <h1 className="wishlist-title">Your Cart</h1>
